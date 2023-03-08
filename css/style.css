@@ -1,0 +1,94 @@
+body{
+    background-color: #E4D8DC;
+    margin: 0cm 2cm;
+}
+h1{
+    color: #2B3467;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+hr{
+    border: red dashed 2px;
+}
+p{
+    text-align: justify;
+    text-indent: 0.5cm;
+    padding: 20px;
+    line-height:1.5cm;
+}
+fieldset, legend{ /*grouping*/
+    border: #2B3467 8px outset;
+    border-radius: 25px;
+    padding:10px;
+    background-color:aquamarine;
+    color: #451f70;   
+}
+/* -----------------------pseudo class--------------------*/
+div#menu a:link, a:visited{
+    text-decoration:none;
+    border:2px solid #2B3467;
+    padding: 5px;
+    background-color:antiquewhite;
+    margin: 0 10px;
+}
+div#menu a:hover{
+    text-decoration: none;
+    border:2px solid #2B3467;
+    background-color:pink;
+    margin: 0 10px;
+}
+div#menu a:active{
+    text-decoration: none;
+    padding:25px;
+    border:2px solid #888fb6;
+    background-color:rgb(158, 3, 29);
+    margin: 0 10px;
+}
+div#menu{
+    text-align: center;
+}
+p#atas, #bawah{
+    text-align: right;
+}
+p.panah a:link, a:visited{
+    text-decoration:none;
+    font-size: 20pt;
+    color:rgb(58, 61, 110);
+    font-weight: bolder;
+}
+p.panah a:hover{
+    text-decoration:none;
+    font-size: 50pt;
+    color:rgb(58, 128, 101);
+    font-weight: bolder;
+}
+p.p2{
+    text-indent: 0cm;
+    color: rgb(72, 99, 105);
+}
+/* ------------------------------------pseudo element--------------------- */
+p.p2:first-letter{
+    font-size: 150pt;
+    float: left;
+    padding: 80px 0px 10px 5px;
+    color: rgb(137, 89, 248);
+}
+ol{
+    list-style-image: url(../images/icons8-anime-emoji.gif);
+}
+
+ul.makanan{
+    list-style-image: url(../images/icons8-food-30.png);
+}
+
+ul.minuman{
+    list-style-image: url(../images/icons8-bottle-of-water-32.png);
+}
+/* ---------------------------------------web desain--------------------------------- */
+@font-face{
+    font-family: myFirstFont;
+    src: url('../font/Vanilla\ Caramel.otf');
+}
+*{
+    font-family: myFirstFont;
+}
